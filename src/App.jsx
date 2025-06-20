@@ -6,6 +6,8 @@ import Kids from './components/Kids'
 import Educational from './components/Educational'
 import Footer from './components/Footer'
 import Cat from './components/Cat'
+import Carrusel from './components/Carrusel'
+
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
       <Kids/>
       <HowItWorks/>
       <Educational/>
+      <Carrusel/>
       <Cat/>
       <Footer/>
     </>
