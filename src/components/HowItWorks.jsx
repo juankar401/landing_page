@@ -16,8 +16,8 @@ function HowItWorks() {
         <img
           src={
             hovered.h1
-              ? "src/assets/targets/h1Hover.svg"
-              : "src/assets/targets/h1.svg"
+              ? "/assets/targets/h1Hover.svg"
+              : "/assets/targets/h1.svg"
           }
           alt="h1"
           draggable={false}
@@ -28,8 +28,8 @@ function HowItWorks() {
         <img
           src={
             hovered.h2
-              ? "src/assets/targets/h2Hover.svg"
-              : "src/assets/targets/h2.svg"
+              ? "/assets/targets/h2Hover.svg"
+              : "/assets/targets/h2.svg"
           }
           alt="h2"
           draggable={false}
@@ -40,8 +40,8 @@ function HowItWorks() {
         <img
           src={
             hovered.h3
-              ? "src/assets/targets/h3Hover.svg"
-              : "src/assets/targets/h3.svg"
+              ? "/assets/targets/h3Hover.svg"
+              : "/assets/targets/h3.svg"
           }
           alt="h3"
           draggable={false}
@@ -51,7 +51,7 @@ function HowItWorks() {
         />
       </div>
       <img
-        src={"src/assets/decoration/grass.png"}
+        src={"/assets/decoration/grass.png"}
         alt="Grass decoration"
         className="w-full"
       />

@@ -2,7 +2,7 @@ function Kids() {
     return (
         <div className="w-full flex justify-center">
             <img 
-                src="src/assets/decoration/kids.svg" 
+                src="/assets/decoration/Kids.svg" 
                 alt="" 
                 className="w-4/5"
                 draggable = {false}

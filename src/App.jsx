@@ -1,4 +1,3 @@
-
 import './App.css'
 import Header from './components/Header'
 import HowItWorks from './components/HowItWorks'
@@ -13,7 +12,7 @@ function App() {
     <>
       <Header/>
       <Home/>
-      <img src="src/assets/decoration/banner.png" alt="banner" className='px-36 w-auto mb-28'/>
+      <img src="/assets/decoration/banner.png" alt="banner" className='px-36 w-auto mb-28'/>
       <Kids/>
       <HowItWorks/>
       <Educational/>

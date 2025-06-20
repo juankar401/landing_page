@@ -1,7 +1,7 @@
 body {
     background-color: #55a8ec;
     color: white;
-    cursor: url('src/assets/cursor/arrow.png'), auto;
+    cursor: url('/assets/cursor/Arrow.png'), auto;
 }
 
 .font-1 {
