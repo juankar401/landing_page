@@ -23,21 +23,17 @@ const Home = () => {
           alt="Cloud" 
           className="absolute top-8 right-12"
         />
-        <img 
-          src={svgPaths.clouds} 
-          alt="Cloud" 
-          className="absolute top-16 left-1/3 opacity-80"
-        />
+
       </div>
 
       {/* Título principal */}
-      <div className="absolute top-12 left-1/2 transform -translate-x-1/2 text-center z-30">
+      <div className="absolute top-2 left-1/2 transform -translate-x-1/2 text-center z-30">
         <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight">
           Learn about<br />
           finance like it's a<br />
           video game
         </h1>
-        <p className="text-white text-lg md:text-xl mt-6 max-w-md mx-auto">
+        <p className="text-white text-lg md:text-xl mt-2 max-w-md mx-auto">
           With FinanQuest, kids and teens between 10 and 18 
           will learn to save, invest, and understand the value 
           of money in a fun and practical way.
@@ -45,7 +41,7 @@ const Home = () => {
       </div>
 
       {/* Botón Start your adventure */}
-      <div className="absolute top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40">
+      <div className="absolute top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
         <img 
           src={svgPaths.button} 
           alt="Start your adventure button" 
