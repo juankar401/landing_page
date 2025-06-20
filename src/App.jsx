@@ -1,6 +1,6 @@
 
 import './App.css'
-import Header from './components/header'
+import Header from './components/Header'
 import HowItWorks from './components/HowItWorks'
 import Home from './components/Home'
 import Kids from './components/Kids'

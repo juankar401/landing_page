@@ -4,7 +4,7 @@ import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="text-white py-8 px-6" style={{ backgroundColor: '#37302A' }}>
-      <div className="mx-auto" style={{ width: '50%' }}>
+      <div className="w-full max-w-6xl mx-auto">
         {/* Grid principal de 2 columnas */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Columna 1: Título FinanQuest */}
@@ -18,9 +18,9 @@ const Footer = () => {
           </div>
 
           {/* Columna 2: Grid interno de 3 columnas */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
             {/* Quick Links */}
-            <div className="px-2">
+            <div>
               <h3
                 className="font-semibold mb-6 uppercase tracking-wide font-1"
                 style={{ color: '#F0D212', fontSize: '1.5rem' }}
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
 
             {/* Policy */}
-            <div className="px-2">
+            <div>
               <h3
                 className="font-semibold mb-6 uppercase tracking-wide font-1"
                 style={{ color: '#F0D212', fontSize: '1.5rem' }}
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
 
             {/* Social */}
-            <div className="px-2">
+            <div>
               <h3
                 className="font-semibold mb-6 uppercase tracking-wide font-1"
                 style={{ color: '#F0D212', fontSize: '1.5rem' }}
@@ -96,7 +96,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-gray-500 text-center">
-          <p className="text-xs text-gray-200 ">
+          <p className="text-xs text-gray-200">
             © 2025 FinanQuest | All Rights Reserved
           </p>
         </div>
