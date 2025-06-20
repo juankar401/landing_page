@@ -2,11 +2,11 @@ import React from 'react';
 
 const Home = () => {
   const svgPaths = {
-    leftGrass: '/assets/decoration/manGrass2.svg',
-    rightGrass: '/assets/decoration/manGrass.svg',
-    clouds: '/assets/decoration/cloud.svg',
-    button: '/assets/buttons/startAdventure.svg',
-    targetsGroup: '/assets/targets/home.svg',
+    leftGrass: './assets/decoration/manGrass2.svg',
+    rightGrass: './assets/decoration/manGrass.svg',
+    clouds: './assets/decoration/cloud.svg',
+    button: './assets/buttons/startAdventure.svg',
+    targetsGroup: './assets/targets/home.svg',
   };
 
   return (

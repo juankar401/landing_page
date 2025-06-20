@@ -9,7 +9,7 @@ function Header() {
       <div className="flex gap-4 md:gap-8 items-center">
         <p className="font-1 text-3xl md:text-4xl lg:text-6xl">Features</p>
         <img
-          src={hovered ? "/assets/buttons/joinBtn2.svg" : "/assets/buttons/joinBtn.svg"}
+          src={hovered ? "./assets/buttons/joinBtn2.svg" : "./assets/buttons/joinBtn.svg"}
           alt="Join"
           className="w-32 md:w-40 lg:w-54 cursor-pointer"
           onMouseEnter={() => setHovered(true)}
