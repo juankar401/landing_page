@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Kids from './components/Kids'
 import Educational from './components/Educational'
 import Footer from './components/Footer'
-
+import Cat from './components/Cat'
 function App() {
 
   return (
@@ -16,6 +16,7 @@ function App() {
       <Kids/>
       <HowItWorks/>
       <Educational/>
+      <Cat/>
       <Footer/>
     </>
   )
