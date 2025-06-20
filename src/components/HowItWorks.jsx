@@ -8,7 +8,7 @@ function HowItWorks() {
   });
 
   return (
-    <div className="flex flex-col items-center pt-4 md:pt-8">
+    <div className="flex flex-col items-center pt-4 md:pt-8 mb-32">
       <h1 className="font-1 text-4xl md:text-5xl lg:text-7xl mb-4 md:mb-8 text-center">
         How It Works
       </h1>
